@@ -1,5 +1,6 @@
 import Particles from "react-particles";
 import Rocket from "./Rocket";
+import Button from '@mui/material/Button';
 
 
 function ParticlesBackground({particlesInit,  particlesLoaded}) {
@@ -100,11 +101,14 @@ function ParticlesBackground({particlesInit,  particlesLoaded}) {
 
       
       <main className="box">
-        <h2>Paul Q. Yetman</h2>
-        <h2>Full Stack Developer</h2>
-        <button type="submit" name="" style={{ justifyContent: "center"}}>
-          Enter
-        </button>
+        <h3>Paul Q. Yetman</h3>
+        <h3>Full Stack Developer</h3>
+        <div style={{display: 'flex', alignItems: 'center',
+          justifyContent: 'center'}}>
+        <Button variant="outlined" size="small" style={{color: 'white', borderColor: "white"}} >
+            Enter
+          </Button>
+        </div>
       </main>
       <div style={{
       display: 'flex',  
