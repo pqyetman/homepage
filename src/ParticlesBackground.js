@@ -12,7 +12,10 @@ function ParticlesBackground({particlesInit,  particlesLoaded}) {
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
-          fpsLimit: 60,
+          smooth: true,
+          fpsLimit: 120,
+          fullScreen: true,
+          detectRetina: true,
           particles: {
             number: {
               value: 2000,
@@ -74,8 +77,7 @@ function ParticlesBackground({particlesInit,  particlesLoaded}) {
                 quantity: 4,
               },
             },
-          },
-          detectRetina: true,
+          },       
           absorbers: {
             orbits: true,
             destroy: true,
