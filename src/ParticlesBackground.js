@@ -1,6 +1,7 @@
 import Particles from "react-particles";
 import Rocket from "./Rocket";
 import Button from '@mui/material/Button';
+import React  from 'react';
 
 
 function ParticlesBackground({particlesInit,  particlesLoaded}) {
@@ -13,7 +14,7 @@ function ParticlesBackground({particlesInit,  particlesLoaded}) {
         loaded={particlesLoaded}
         options={{
           smooth: true,
-          detectRetina: false,
+          detectRetina: true,
           fpsLimit: 120,
           fullScreen: true,         
           particles: {
