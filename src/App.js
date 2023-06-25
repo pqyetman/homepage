@@ -1,7 +1,6 @@
 import ParticlesBackground from "./ParticlesBackground";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
-import React  from 'react';
 
 import './App.css';
 
@@ -23,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    
+    <>
         
       <ParticlesBackground 
       particlesLoaded={particlesLoaded}
@@ -31,7 +30,7 @@ function App() {
       
       />
        
-  
+    </>
   );
 }
 
