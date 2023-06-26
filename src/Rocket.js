@@ -35,7 +35,7 @@ export default function Rocket() {
       mass: 1,
       friction: 1,
       tension: 1,
-      duration: 200,     
+      duration: 100,     
     },   
 });
 
