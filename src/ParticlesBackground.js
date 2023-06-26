@@ -13,8 +13,8 @@ function ParticlesBackground({particlesInit,  particlesLoaded}) {
         loaded={particlesLoaded}
         options={{
           smooth: true,
-          detectRetina: false,
-          fpsLimit: 120,
+          detectRetina: true,
+          fpsLimit: 1200,
           fullScreen: true,         
           particles: {
             number: {
